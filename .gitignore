@@ -1,0 +1,14 @@
+# Daten & Logs
+users.csv
+data/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Environment / Secrets
+.env
