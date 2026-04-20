@@ -62,6 +62,21 @@ The lab simulates a small business infrastructure with a Domain Controller, a Ma
 
 ---
 
+## 📊 Monitoring
+
+A custom PowerShell monitoring script checks:
+
+- Domain Controller availability
+- DNS resolution
+- DHCP service status
+- CPU usage
+- RAM usage
+- Disk space
+
+The script runs automatically using Windows Task Scheduler and logs results to a file.
+
+---
+
 ## 🔐 Access Control Concept
 
 * Access is assigned via security groups (not directly to users)
